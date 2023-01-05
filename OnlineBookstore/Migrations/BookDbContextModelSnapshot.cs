@@ -10,7 +10,7 @@ using OnlineBookstore.Models;
 
 namespace OnlineBookstore.Migrations
 {
-    [DbContext(typeof(BookDbContext))]
+    [DbContext(typeof(AppDbContext))]
     partial class BookDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

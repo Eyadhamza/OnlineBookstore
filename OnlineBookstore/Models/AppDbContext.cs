@@ -2,9 +2,9 @@
 
 namespace OnlineBookstore.Models
 {
-    public class BookDbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public BookDbContext(DbContextOptions<BookDbContext> options) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 

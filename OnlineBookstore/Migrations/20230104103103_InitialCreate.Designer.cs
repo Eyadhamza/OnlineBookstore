@@ -10,7 +10,7 @@ using OnlineBookstore.Models;
 
 namespace OnlineBookstore.Migrations
 {
-    [DbContext(typeof(BookDbContext))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20230104103103_InitialCreate")]
     partial class InitialCreate
     {

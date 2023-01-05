@@ -12,8 +12,8 @@ using OnlineBookstore.Models;
 namespace OnlineBookstore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230104103303_InitialCreate1")]
-    partial class InitialCreate1
+    [Migration("20230104122005_InitialCreate2")]
+    partial class InitialCreate2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
